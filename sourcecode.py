@@ -5,8 +5,8 @@ plt.ion()
 fig , ax = plt.subplots(figsize=(10,6))
 result = []
 my_array = []
-for i in range(100):
-  my_array.append(random.randint(0,100))
+for i in range(1000):
+  my_array.append(random.randint(0,1000))
 def visualization():
   plt.title("Sorting Algorithm Visualization")
   plt.xlabel('x')
@@ -36,7 +36,6 @@ sorted_list=sortlist(my_array)
 plt.ioff()
 ax.clear()
 plt.show()
-
 
 
 
