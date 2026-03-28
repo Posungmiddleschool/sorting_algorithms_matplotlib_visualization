@@ -24,4 +24,10 @@ def sortlist(arr):
       right_list.append(values)
   return sortlist(left_list) + mid_list + sortlist(right_list)
 
-  
+plt.title("Sorting Algorithm Visualization")
+plt.xlabel('x')
+plt.ylabel('y')
+plt.bar(x_axis, my_array)
+plt.show()
+sortlist(my_array)
+plt.show()
